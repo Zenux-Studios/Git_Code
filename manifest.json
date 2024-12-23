@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 3,
+  "name": "Git code",
+  "version": "1",
+  "description": "From Remote git to the local code.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "assets/vscode.png"
+    }
+  },
+  "icons": {
+    "128": "assets/vscode.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
