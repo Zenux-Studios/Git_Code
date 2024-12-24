@@ -1,7 +1,6 @@
 function openInCode() {
   if (
-    document.readyState === "complete" &&
-    document.getElementById("repository-details-container")
+    !document.readyState === "complete" 
   ) {
     return;
   } else {
