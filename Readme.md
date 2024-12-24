@@ -1,4 +1,4 @@
-# Smart Chrome Extension: Seamless Web to Workspace Integration
+# Git Code: Seamless Web to Workspace Integration
 
 ## Introduction
 This Chrome extension enables you to bridge the gap between the web and your development workspace effortlessly. With a single click, you can download any Git repository to your local directory and instantly open it in VS Code. From browsing repositories to building projects, this extension provides a streamlined workflow, saving time and enhancing productivity.
